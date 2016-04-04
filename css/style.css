@@ -457,3 +457,12 @@ csmall2 {
 	padding-right: 15px;
 	font-size: 18px;
 }
+
+#resources ul {
+	list-style-position: inside;
+}
+
+#organization-dataset img, .thumbnail {
+	max-width: 150px;
+	border: none;
+}

@@ -1396,6 +1396,9 @@ pre code {
   .col-lg-offset-1 {
     margin-left: 8.33333333%;
   }
+  .col-lg-offset-05 {
+    margin-left: 1.3333333%;
+  }
   .col-lg-offset-0 {
     margin-left: 0;
   }
