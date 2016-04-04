@@ -25,20 +25,20 @@ category_list:
   - Uncategorized
   
 categories_images:
-  Arts / Culture / History: "/jkan/img/portfolio/portfolio_09.jpg"
-  Budget / Finance: "/jkan/img/portfolio/portfolio_09.jpg"
-  Economy: "/jkan/img/portfolio/portfolio_09.jpg"
-  Education: "/jkan/img/portfolio/portfolio_09.jpg"
-  Elections / Politics: "/jkan/img/portfolio/portfolio_09.jpg"
-  Environment: "/jkan/img/portfolio/portfolio_09.jpg"
-  Food: "/jkan/img/portfolio/portfolio_09.jpg"
-  Health / Human Services: "/jkan/img/portfolio/portfolio_09.jpg"
-  Parks / Recreation: "/jkan/img/portfolio/portfolio_09.jpg"
-  Planning / Zoning: "/jkan/img/portfolio/portfolio_09.jpg"
-  Public Safety: "/jkan/img/portfolio/portfolio_09.jpg"
-  Real Estate / Land Records: "/jkan/img/portfolio/portfolio_09.jpg"
-  Transportation: "/jkan/img/portfolio/portfolio_09.jpg"
-  Uncategorized: "/jkan/img/portfolio/portfolio_09.jpg"
+  Arts / Culture / History: "/img/portfolio/portfolio_01.jpg"
+  Budget / Finance: "/img/portfolio/portfolio_02.jpg"
+  Economy: "/img/portfolio/portfolio_03.jpg"
+  Education: "/img/portfolio/portfolio_09.jpg"
+  Elections / Politics: "/img/portfolio/portfolio_05.jpg"
+  Environment: "/jkan/img/portfolio/portfolio_06.jpg"
+  Food: "/img/portfolio/portfolio_07.jpg"
+  Health / Human Services: "/img/portfolio/portfolio_08.jpg"
+  Parks / Recreation: "/img/portfolio/portfolio_09.jpg"
+  Planning / Zoning: "/img/portfolio/portfolio_07.jpg"
+  Public Safety: "/img/portfolio/portfolio_06.jpg"
+  Real Estate / Land Records: "/img/portfolio/portfolio_03.jpg"
+  Transportation: "/img/portfolio/portfolio_04.jpg"
+  Uncategorized: "/img/portfolio/portfolio_05.jpg"
 
 # Link for the "fork me on github" banner. Remove this line to suppress banner.
 fork_me_url: https://github.com/sacmoei/jkan

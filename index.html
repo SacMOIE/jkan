@@ -30,20 +30,28 @@ layout: default
 			   
 			   
 			   {% for dataset in site.datasets %}
-			   			   			   
-   			<div class="portfolio-item {{ dataset.category | slugify 'raw'}}">
-   				<div class="he-wrap tpl6">
-   				<img src="{{ site.categories_images[dataset.category] }}" alt="{{ dataset.category | slugify }}">
-   					<div class="he-view">
-   						<div class="bg a0" data-animate="fadeIn">
-                                  <h3 class="a1" data-animate="fadeInDown">{{ dataset.category }}</h3>
-                                  <a data-rel="prettyPhoto" href="{{ site.categories_images[dataset.category] }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                  <a href="{{ site.baseurl }}/datasets/?category={{ dataset.category | slugify }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                          	</div><!-- he bg -->
-   					</div><!-- he view -->		
-   				</div><!-- he wrap -->
-   			</div><!-- end col-12 -->
 			   
+			 {{  site.categories_images[dataset.category }}
+			   
+			   {% assign catname = dataset.category  %}
+			   {% assign catslug = dataset.category | replace:'["',''| replace: '"]','' %}
+			   {% assign catpic = site.categories_images[catslug] %}
+			   
+			  
+  			<div class="portfolio-item {{ catname }}">
+  				<div class="he-wrap tpl6">
+  				<img src="{{site.baseurl}}/{{catpic}}" alt="">
+  					<div class="he-view">
+  						<div class="bg a0" data-animate="fadeIn">
+                                 <h3 class="a1" data-animate="fadeInDown">{{ catname }}</h3>
+                                 <a data-rel="prettyPhoto" href="{{site.baseurl}}/{{catpic}}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                 <a href="{{site.baseurl}}/?category={{catslug}}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                         	</div><!-- he bg -->
+  					</div><!-- he view -->		
+  				</div><!-- he wrap -->
+  			</div><!-- end col-12 -->
+			   			   			   
+   		
 			   {% endfor %}
 
                                        

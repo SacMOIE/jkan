@@ -18,10 +18,11 @@ export function setParams (params) {
 // Meant to mimic Jekyll's slugify function
 // https://github.com/jekyll/jekyll/blob/master/lib/jekyll/utils.rb#L142
 export function slugify (text) {
-  return text.toString().toLowerCase().trim()
+  return text.toString().remove('/').toLowerCase().trim()
     .replace(/[^a-zA-Z0-9]/g, '-')  // Replace non-alphanumeric chars with -
     .replace(/\-\-+/g, '-')         // Replace multiple - with single -
     .replace(/^\-|\-$/i, '')        // Remove leading/trailing hyphen
-    .replace(/\//g,'')      // Remove leading/trailing hyphen
+	
+          // Remove leading/trailing hyphen
 	
 }
