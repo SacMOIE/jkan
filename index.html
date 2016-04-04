@@ -27,70 +27,25 @@ layout: default
        <div class="portfolio-centered">
        	<h3>Featured Categories</h3>
            <div class="recentitems portfolio">
-			<div class="portfolio-item graphic-design">
-				<div class="he-wrap tpl6">
-				<img src="{{site.baseurl}}/img/portfolio/portfolio_09.jpg" alt="">
-					<div class="he-view">
-						<div class="bg a0" data-animate="fadeIn">
-                               <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                               <a data-rel="prettyPhoto" href="{{site.baseurl}}/img/portfolio/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                               <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                       	</div><!-- he bg -->
-					</div><!-- he view -->		
-				</div><!-- he wrap -->
-			</div><!-- end col-12 -->
-                           
-               <div class="portfolio-item web-design">
-                   <div class="he-wrap tpl6">
-				<img src="{{site.baseurl}}/img/portfolio/portfolio_02.jpg" alt="">
-					<div class="he-view">
-						<div class="bg a0" data-animate="fadeIn">
-                               <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                               <a data-rel="prettyPhoto" href="{{site.baseurl}}/img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                               <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                       	</div><!-- he bg -->
-					</div><!-- he view -->		
-				</div><!-- he wrap -->
-			</div><!-- end col-12 -->
-       
-               <div class="portfolio-item graphic-design">
-                   <div class="he-wrap tpl6">
-				<img src="{{site.baseurl}}/img/portfolio/portfolio_03.jpg" alt="">
-					<div class="he-view">
-						<div class="bg a0" data-animate="fadeIn">
-                               <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                               <a data-rel="prettyPhoto" href="{{site.baseurl}}/img/portfolio/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                               <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                       	</div><!-- he bg -->
-					</div><!-- he view -->		
-				</div><!-- he wrap -->
-			</div><!-- end col-12 -->
-       
-               <div class="portfolio-item graphic-design">
-                   <div class="he-wrap tpl6">
-				<img src="{{site.baseurl}}/img/portfolio/portfolio_04.jpg" alt="">
-					<div class="he-view">
-						<div class="bg a0" data-animate="fadeIn">
-                               <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                               <a data-rel="prettyPhoto" href="{{site.baseurl}}/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                               <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                       	</div><!-- he bg -->
-					</div><!-- he view -->		
-				</div><!-- he wrap -->
-			</div><!-- end col-12 -->
+			   
+			   
+			   {% for dataset in site.datasets %}
+			   			   			   
+   			<div class="portfolio-item {{ dataset.category | slugify 'raw'}}">
+   				<div class="he-wrap tpl6">
+   				<img src="{{ site.categories_images[dataset.category] }}" alt="{{ dataset.category | slugify }}">
+   					<div class="he-view">
+   						<div class="bg a0" data-animate="fadeIn">
+                                  <h3 class="a1" data-animate="fadeInDown">{{ dataset.category }}</h3>
+                                  <a data-rel="prettyPhoto" href="{{ site.categories_images[dataset.category] }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                  <a href="{{ site.baseurl }}/datasets/?category={{ dataset.category | slugify }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                          	</div><!-- he bg -->
+   					</div><!-- he view -->		
+   				</div><!-- he wrap -->
+   			</div><!-- end col-12 -->
+			   
+			   {% endfor %}
 
-               <div class="portfolio-item graphic-design">
-                   <div class="he-wrap tpl6">
-				<img src="{{site.baseurl}}/img/portfolio/portfolio_05.jpg" alt="">
-					<div class="he-view">
-						<div class="bg a0" data-animate="fadeIn">
-                               <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                               <a data-rel="prettyPhoto" href="../img/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                               <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                       	</div><!-- he bg -->
-					</div><!-- he view -->		
-				</div><!-- he wrap -->
-			</div><!-- end col-12 -->
                                        
                    
            </div><!-- portfolio -->

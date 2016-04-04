@@ -22,4 +22,6 @@ export function slugify (text) {
     .replace(/[^a-zA-Z0-9]/g, '-')  // Replace non-alphanumeric chars with -
     .replace(/\-\-+/g, '-')         // Replace multiple - with single -
     .replace(/^\-|\-$/i, '')        // Remove leading/trailing hyphen
+    .replace(/\//g,'')      // Remove leading/trailing hyphen
+	
 }

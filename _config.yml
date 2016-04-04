@@ -23,9 +23,25 @@ category_list:
   - Real Estate / Land Records
   - Transportation
   - Uncategorized
+  
+categories_images:
+  Arts / Culture / History: "/jkan/img/portfolio/portfolio_09.jpg"
+  Budget / Finance: "/jkan/img/portfolio/portfolio_09.jpg"
+  Economy: "/jkan/img/portfolio/portfolio_09.jpg"
+  Education: "/jkan/img/portfolio/portfolio_09.jpg"
+  Elections / Politics: "/jkan/img/portfolio/portfolio_09.jpg"
+  Environment: "/jkan/img/portfolio/portfolio_09.jpg"
+  Food: "/jkan/img/portfolio/portfolio_09.jpg"
+  Health / Human Services: "/jkan/img/portfolio/portfolio_09.jpg"
+  Parks / Recreation: "/jkan/img/portfolio/portfolio_09.jpg"
+  Planning / Zoning: "/jkan/img/portfolio/portfolio_09.jpg"
+  Public Safety: "/jkan/img/portfolio/portfolio_09.jpg"
+  Real Estate / Land Records: "/jkan/img/portfolio/portfolio_09.jpg"
+  Transportation: "/jkan/img/portfolio/portfolio_09.jpg"
+  Uncategorized: "/jkan/img/portfolio/portfolio_09.jpg"
 
 # Link for the "fork me on github" banner. Remove this line to suppress banner.
-fork_me_url: https://github.com/timwis/jkan
+fork_me_url: https://github.com/sacmoei/jkan
 
 # Nav bar
 navigation:
