@@ -1,5 +1,5 @@
 ---
-title: "City of Sacramento Mayor's Office of Innovation Brand"
+title: "Cultural Events"
 organization: Sample Department
 notes: asdfasdfd
 resources:
