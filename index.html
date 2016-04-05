@@ -40,12 +40,11 @@ layout: default
 			  
   			<div class="portfolio-item {{ catname }}">
   				<div class="he-wrap tpl6">
-  				<img src="{{site.baseurl}}/{{catpic}}" alt="">
+  				<a href="{{site.baseurl}}/datasets/?category={{catslug | slugify}}"><img src="{{site.baseurl}}/{{catpic}}" alt=""></a>
   					<div class="he-view">
   						<div class="bg a0" data-animate="fadeIn">
                                  <h3 class="a1" data-animate="fadeInDown">{{ catname }}</h3>
-                                 <a data-rel="prettyPhoto" href="{{site.baseurl}}/{{catpic}}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                 <a href="{{site.baseurl}}/?category={{catslug}}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                                 <a href="{{site.baseurl}}/datasets/?category={{catslug | slugify}}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                          	</div><!-- he bg -->
   					</div><!-- he view -->		
   				</div><!-- he wrap -->
