@@ -10,6 +10,23 @@ layout: default
 			</div><!-- /row -->
 	    </div> <!-- /container -->
 	</div><!-- /blue -->
+    {% for category in page.category %}
+   {% assign catslug = page.category | replace:'["',''| replace: '"]','' %}
+   {% assign catpic = site.categories_images[catslug] %}
+	
+	
+	
+	<div id="blue" style="background:url({{site.baseurl}}/img/portfolio/{{catpic}}) center no-repeat; background-size: 100% auto;">
+	    <div class="container">
+			
+			<div class="row">
+				<h3 >{{ category }}</h3>
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /blue -->
+    {% endfor %}
+	
+	
  {% include breadcrumbs.html parent="Datasets" %}
 	
 	<div class="alert alert-success" role="alert" data-hook="alert-success" style="display: none;">

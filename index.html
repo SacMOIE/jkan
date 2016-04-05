@@ -31,7 +31,6 @@ layout: default
 			   
 			   {% for dataset in site.datasets %}
 			   
-			 {{  site.categories_images[dataset.category }}
 			   
 			   {% assign catname = dataset.category  %}
 			   {% assign catslug = dataset.category | replace:'["',''| replace: '"]','' %}
