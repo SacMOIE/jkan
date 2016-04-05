@@ -13,7 +13,7 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
  
-    <ul class="nav navbar-nav navbar-right">
+    <ul class="nav navbar-nav navbar-right dropdown">
     {% for link in site.navigation %}
       {% if page.url contains link.url %}
         <li class="active"><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }} <span class="sr-only">(current)</span></a></li>
@@ -23,7 +23,7 @@
     {% endfor %}
       <li><a href="#" data-hook="login-link">Login</a></li>
       <li class="dropdown hidden" data-hook="user-dropdown">
-        <a href="#" class="dropdown-toggle" data-hook="user-dropdown-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <a href="#" class="dropdown-toggle" data-hook="user-dropdown-link" data-toggle="dropdown-menu" role="button" aria-haspopup="true" aria-expanded="false">
           <span class="user-issue" data-hook="user-issue"><i class="fa fa-exclamation-circle"></i></span>
           <span data-hook="user-name">User</span>
           <span class="caret"></span>
