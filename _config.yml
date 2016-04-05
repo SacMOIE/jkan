@@ -25,20 +25,20 @@ category_list:
   - Uncategorized
   
 categories_images:
-  Arts / Culture / History: "/img/portfolio/music.jpg"
-  Budget / Finance: "/img/portfolio/calculator.jpg"
-  Economy: "/img/portfolio/portfolio_03.jpg"
-  Education: "/img/portfolio/classroom.jpg"
-  Elections / Politics: "/img/portfolio/auditorium.jpg"
-  Environment: "/jkan/img/portfolio/leaf.jpg"
-  Food: "/img/portfolio/food.jpg"
-  Health / Human Services: "/img/portfolio/portfolio_08.jpg"
-  Parks / Recreation: "/img/portfolio/portfolio_09.jpg"
-  Planning / Zoning: "/img/portfolio/oneway.jpg"
-  Public Safety: "/img/portfolio/portfolio_06.jpg"
-  Real Estate / Land Records: "/img/portfolio/portfolio_03.jpg"
-  Transportation: "/img/portfolio/bike.jpg"
-  Uncategorized: "/img/portfolio/portfolio_05.jpg"
+  Arts / Culture / History: "music.jpg"
+  Budget / Finance: "calculator.jpg"
+  Economy: "city.jpg"
+  Education: "classroom.jpg"
+  Elections / Politics: "auditorium.jpg"
+  Environment: "leaf.jpg"
+  Food: "food.jpg"
+  Health / Human Services: "hospital.jpg"
+  Parks / Recreation: "skates.jpg"
+  Planning / Zoning: "oneway.jpg"
+  Public Safety: "police.jpg"
+  Real Estate / Land Records: "building.jpg"
+  Transportation: "bike.jpg"
+  Uncategorized: "computer.jpg"
 
 # Link for the "fork me on github" banner. Remove this line to suppress banner.
 fork_me_url: https://github.com/sacmoei/jkan
