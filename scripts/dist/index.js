@@ -1,7 +1,6 @@
 /* global settings */
 import $ from 'jquery'
 import 'jquery-deparam'
-import jQuery from 'jquery'
 import {omit} from 'lodash'
 
 import UserModel from './models/user'
