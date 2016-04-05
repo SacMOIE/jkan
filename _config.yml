@@ -28,7 +28,7 @@ categories_images:
   Arts / Culture / History: "music.jpg"
   Budget / Finance: "calculator.jpg"
   Economy: "city.jpg"
-  Education: "classroom.jpg"
+  Education: "computer.jpg"
   Elections / Politics: "auditorium.jpg"
   Environment: "leaf.jpg"
   Food: "food.jpg"
@@ -38,7 +38,7 @@ categories_images:
   Public Safety: "police.jpg"
   Real Estate / Land Records: "building.jpg"
   Transportation: "bike.jpg"
-  Uncategorized: "computer.jpg"
+  Uncategorized: "auditorium.jpg"
 
 # Link for the "fork me on github" banner. Remove this line to suppress banner.
 fork_me_url: https://github.com/sacmoei/jkan
