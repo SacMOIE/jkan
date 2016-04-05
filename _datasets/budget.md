@@ -1,5 +1,5 @@
 ---
-title: "Budget
+title: "Budget"
 organization: Sample Department
 notes: asdfasdfd
 resources:
